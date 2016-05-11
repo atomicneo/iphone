@@ -1,0 +1,38 @@
+<!--code by Neo -->
+<!DOCTYPE html>
+<html> 
+<head>
+<title>新建网页</title>
+<meta charset="utf-8"/>
+<style>
+*{ margin:0; padding:0; }
+@keyframes test{
+	from{background-position:0 0;}
+	to{ background-position:400px 0;}
+}
+
+.box{ width:300px; height:500px; margin:40px auto; position:relative; }
+.box img{ width:300px; height:500px; }
+.box div{ width:150px; height:30px; position:absolute; top:414px; left:76px; }
+.box .p1{ width:150px; height:30px; font-size:22px; font-family:'Microsoft Yahei'; }
+.box .p2{ width:150px; height:30px; font-size:22px; font-family:'Microsoft Yahei'; position:absolute; top:0; left:0; background:-webkit-linear-gradient(-40deg,rgba(0,0,0,0.8) 100px,#fff 110px,#fff 120px,rgba(0,0,0,0.8) 130px); -webkit-background-clip:text; color:rgba(0,0,0,0);
+	animation-name:test;
+	animation-duration:10s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+ }
+</style>
+<script>
+
+</script>
+</head>
+<body>
+	<div class="box">
+		<img src="img/iphone.jpg" alt="" />
+		<div>
+			<p class="p1">〉滑动来解锁</p>	
+			<p class="p2">〉滑动来解锁</p>
+		</div>	
+	</div>
+</body>
+</html>
